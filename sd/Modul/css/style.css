@@ -1,0 +1,78 @@
+.wrapper{
+width: 100dvw;
+display: flex;
+justify-content: center;
+}
+h1{
+    font-size: 44px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.container-authorization{
+    display: flex;
+    height: 100dvh;
+    width: 1100px;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.authorization{
+    display: flex;
+
+}
+.authorization-img{
+    width: 300px;
+  position: relative;
+  
+}
+
+.authorization-img::after{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: url("../img/authorization.jpg") no-repeat center;
+background-size: cover;
+border-radius: 10px 0px 0px 10px;
+}
+.authorization__content{
+    max-width: 600px;
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 10px 10px 0px;
+}
+.authorization__input{
+    width: 100%;
+    margin-top: 40px;
+}
+.authorization__button{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 20px 20px;
+}
+
+.registration__button{
+    margin-top: 70px;
+}
+.link:hover{
+color: #93b6a3  ;
+}
+
+input{
+    padding: 5px;
+    border-bottom: 1px solid rgb(117, 117, 117);
+}
+
+button{
+    padding: 10px 20px 10px 20px;
+    font-size: 26px;
+    border-radius: 3px;
+    background-color:#90a198 ;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#93b6a3 ;
+}
